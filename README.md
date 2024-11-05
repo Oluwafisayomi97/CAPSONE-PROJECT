@@ -8,12 +8,12 @@ This project focuses on a detailed analysis of sales data for a retail store, ai
 
 ## Data Sources
 ---
-The primary source od data used in this project is a stimulated sales data for a retail store. It includes transactional data that represents sales across differnt products, region, order Id, customer Id, order date.
+The primary source of data used in this project is a stimulated sales data for a retail store. It includes transactional data that represents sales across differnt products, region, order Id, customer Id, order date.
 
 ## The Data Tools Used
 ---
 •	Microsoft Excel: Excel was used for initial data exploration, cleaning, and basic analysis. Pivot tables and formulas were applied to calculate metrics like average sales 
-  per product and total revenue by region.[Downloade here](http://www.microsoft.com)
+  per product and total revenue by region.[Download here](http://www.microsoft.com)
   
 •	SQL: SQL was employed to load and query the dataset within a SQL Server environment. This allowed for more advanced analysis, such as calculating total revenue per 
   product, identifying top-performing products, and analyzing sales trends. SQL also enabled efficient filtering and grouping to derive insights from large volumes of data.
@@ -102,7 +102,6 @@ WHERE OrderDate >= DATEADD(MONTH, -1, GETDAT)
 GROUP BY Product;
 
 ## Data Visualization
-
 
 [Dowmload here](https://github.com/Oluwafisayomi97/CAPSONE-PROJECT/commit/ad4e1997e501ea86231c7fc9eaaa2104d7b82bf3)
 
