@@ -19,3 +19,7 @@ The dataset used in this project is a stimulated sales data for a retail store. 
   components like a sales overview, top-performing products, and regional breakdowns, allowing stakeholders to interact with the data and quickly understand key findings.
   
 •	Github for portfolio building
+
+## 
+
+
