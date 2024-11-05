@@ -75,7 +75,6 @@ WHERE YEAR(OrderDate) = YEAR(GETDATE())
 GROUP BY MONTH(OrderDate)
 ORDER BY MONTH;
 
-
 SELECT Top 5 Customer_Id, Sum (quantity * unitprice) as TotalPurchaseAmount
 FROM [dbo].[SalesData]
 GROUP BY Customer_Id
@@ -88,15 +87,10 @@ FROM[dbo].[SalesData] )), 2) AS SalesPercentage
 FROM[dbo].[SalesData]
 GROUP BY Region;
 
-
 SELECT Product
 FROM [dbo].[SalesData]
 WHERE Product NOT IN (
 SELECT DISTINCT Product
 FROM [dbo].[SalesData]
-WHERE OrderDate >= DATEADD(MONTH, -1, GETDAT
-
-
-
-
-
+WHERE OrderDate >= DATEADD(MONTH, -1, GETDAT)
+GROUP BY Product;
