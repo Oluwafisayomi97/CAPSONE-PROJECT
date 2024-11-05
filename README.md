@@ -20,8 +20,8 @@ The primary source od data used in this project is a stimulated sales data for a
   
 •	Github for portfolio building
 
-## Data Cleaning 
-• Data Cleaning: I Identified and removed duplicate records 
+## Data Cleaning and Preparation
+• Removing Duplicate: Eliminated duplicated records to ensure data accuracy  
 
 • Creating New Calculated Columns: I added a new sales column to calculate the sum of unit price and quantity
 
@@ -45,7 +45,8 @@ Exploratory data analysis invoved explorying the data to answer some of the ques
 
 • Identify products with no sales in the last quarteR
 
-
+## Data Analysis 
+This is where we include some basic lines of codes or quer
 
 
 
