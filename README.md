@@ -46,7 +46,55 @@ Exploratory data analysis invoved explorying the data to answer some of the ques
 • Identify products with no sales in the last quarteR
 
 ## Data Analysis 
-This is where we include some basic lines of codes or quer
+This is where I include some basic lines of codes or queries uesd during the analysis;
+
+```SQL
+Select * from [dbo].[SalesData]
+```
+
+SELECT Product,SUM(Quantity*unitprice) as TotalSales
+FROM [dbo].[SalesData]
+GROUP BY Product;
+
+SELECT Region, COUNT(*) AS SalesTransactions
+FROM [dbo].[SalesData]
+GROUP BY Region;
+
+SELECT Top 1 product, sum(quantity * unitprice) as TotalSales
+FROM [dbo].[SalesData]
+GROUP BY Product
+ORDER BY TotalSales DESC;
+
+SELECT product, sum(quantity * unitprice) as TotalRevenue
+FROM [dbo].[SalesData]
+GROUP BY Product;
+
+SELECT MONTH(OrderDate) AS Month, Sum (quantity * unitprice) as MonthlySales
+FROM [dbo].[SalesData]
+WHERE YEAR(OrderDate) = YEAR(GETDATE())
+GROUP BY MONTH(OrderDate)
+ORDER BY MONTH;
+
+
+SELECT Top 5 Customer_Id, Sum (quantity * unitprice) as TotalPurchaseAmount
+FROM [dbo].[SalesData]
+GROUP BY Customer_Id
+ORDER BY TotalPurchaseAmount DESC;
+
+SELECT Region, 
+SUM (Sales) AS TotalSales, 
+ROUND((SUM(Sales) * 100 / (SELECT SUM(Sales)
+FROM[dbo].[SalesData] )), 2) AS SalesPercentage
+FROM[dbo].[SalesData]
+GROUP BY Region;
+
+
+SELECT Product
+FROM [dbo].[SalesData]
+WHERE Product NOT IN (
+SELECT DISTINCT Product
+FROM [dbo].[SalesData]
+WHERE OrderDate >= DATEADD(MONTH, -1, GETDAT
 
 
 
