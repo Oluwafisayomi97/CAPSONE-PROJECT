@@ -3,12 +3,15 @@
 ## Project Title: The Sales Performance Analysis for a Retail Store
 
 ## Project Summary
+---
 This project focuses on a detailed analysis of sales data for a retail store, aiming to deliver insights that can help the business optimize inventory, identify growth opportunities, and enhance customer satisfaction. By analyzing key metrics such as product sales, regional performance, and monthly trends, this project offers a comprehensive view of the store’s sales dynamics.
 
 ## Data Sources
+---
 The primary source od data used in this project is a stimulated sales data for a retail store. It includes transactional data that represents sales across differnt products, region, order Id, customer Id, order date.
 
 ## The Data Tools Used
+---
 •	Microsoft Excel: Excel was used for initial data exploration, cleaning, and basic analysis. Pivot tables and formulas were applied to calculate metrics like average sales 
   per product and total revenue by region.[Downloade here](http://www.microsoft.com)
   
@@ -21,6 +24,7 @@ The primary source od data used in this project is a stimulated sales data for a
 •	Github for portfolio building
 
 ## Data Cleaning and Preparation
+---
 • Removing Duplicate: Eliminated duplicated records to ensure data accuracy  
 
 • Creating New Calculated Columns: I added a new sales column to calculate the sum of unit price and quantity
@@ -28,6 +32,7 @@ The primary source od data used in this project is a stimulated sales data for a
 • Pivot Tables: I created pivot tables to analyze sales by product, region, and period, total revenue by Product
 
 ## Exploratory Data Analysis
+---
 Exploratory data analysis invoved explorying the data to answer some of the question, needful for the data such as;
 • What is the total sales for each product category. 
 
@@ -46,6 +51,7 @@ Exploratory data analysis invoved explorying the data to answer some of the ques
 • Identify products with no sales in the last quarteR
 
 ## Data Analysis 
+---
 This is where I include some basic lines of codes or queries uesd during the analysis;
 
 ```SQL
@@ -94,3 +100,7 @@ SELECT DISTINCT Product
 FROM [dbo].[SalesData]
 WHERE OrderDate >= DATEADD(MONTH, -1, GETDAT)
 GROUP BY Product;
+
+## Data Visualization
+
+
