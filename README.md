@@ -30,13 +30,20 @@ The primary source od data used in this project is a stimulated sales data for a
 ## Exploratory Data Analysis
 Exploratory data analysis invoved explorying the data to answer some of the question, needful for the data such as;
 • What is the total sales for each product category. 
+
 • What is the number of sales transactions in each region. 
-• Calculate the highest-selling product by total sales value. 
+
+• Calculate the highest-selling product by total sales value.
+
 • Calculate the total revenue per product. 
+
 • Calculate  the monthly sales totals for the current year. 
+
 • Find the top 5 customers by total purchase amount. 
+
 • Calculate the percentage of total sales contributed by each region. 
-• Identify products with no sales in the last quarte
+
+• Identify products with no sales in the last quarteR
 
 
 
