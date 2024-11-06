@@ -125,5 +125,10 @@ The total sales by month image from the pivoot table
 ## Data Visualization
 
 The customer data dashboard visualization
-<img width="677" alt="Sales Data Dashboard Visualization" src="https://github.com/user-attachments/assets/f34555ee-7d56-4c16-b862-ce9b08443420">
+![image](https://github.com/user-attachments/assets/9859bb0e-615b-4773-8e82-78c29fbdee14)
 
+The average revenue by region
+<img width="553" alt="Average Revenue By Region" src="https://github.com/user-attachments/assets/e47304ff-192a-49af-bfc2-21dd5f39c9ad">
+
+The count of product by the month 
+<img width="566" alt="Count of Product by Month" src="https://github.com/user-attachments/assets/5f0c9547-a750-4da2-b150-99af73cecde4">
