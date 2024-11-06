@@ -8,7 +8,21 @@ This project focuses on a detailed analysis of sales data for a retail store, ai
 
 ## Data Sources
 ---
-The primary source of data used in this project is a stimulated sales data for a retail store. It includes transactional data that represents sales across differnt products, region, order Id, customer Id, order date.
+The primary source of data used in this project is a stimulated sales data for a retail store.
+
+CustomerID: Unique identifier for each customer.
+
+CustomerName: Name of the customer
+
+Product: Name of the product sold
+
+Region: Geographic region of the sale (North, South, East, West)
+
+Order Date: The date the product was ordered
+
+Quantity: the number of units sold
+
+Unit Price: the price per unit
 
 ## The Data Tools Used
 ---
@@ -31,6 +45,7 @@ The primary source of data used in this project is a stimulated sales data for a
 
 • Pivot Tables: I created pivot tables to analyze sales by product, region, and period, total revenue by Product
 
+• Excel functions (SUM, COUNT, AVERAGE, AVERAGEIF, AND SUMIF) for statistical calculations like total revenue, and average revenue.
 ## Exploratory Data Analysis
 ---
 Exploratory data analysis invoved explorying the data to answer some of the question, needful for the data such as;
@@ -101,6 +116,6 @@ FROM [dbo].[SalesData]
 WHERE OrderDate >= DATEADD(MONTH, -1, GETDAT)
 GROUP BY Product;
 
-## Data Visualization
-(https://github.com/Oluwafisayomi97/CAPSONE-PROJECT/commit/ad4e1997e501ea86231c7fc9eaaa2104d7b82bf3)
+## Data Analysis
+
 
