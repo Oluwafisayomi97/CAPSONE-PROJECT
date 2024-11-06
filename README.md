@@ -102,6 +102,5 @@ WHERE OrderDate >= DATEADD(MONTH, -1, GETDAT)
 GROUP BY Product;
 
 ## Data Visualization
-
-[Dowmload here](https://github.com/Oluwafisayomi97/CAPSONE-PROJECT/commit/ad4e1997e501ea86231c7fc9eaaa2104d7b82bf3)
+(https://github.com/Oluwafisayomi97/CAPSONE-PROJECT/commit/ad4e1997e501ea86231c7fc9eaaa2104d7b82bf3)
 
