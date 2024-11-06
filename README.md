@@ -116,6 +116,7 @@ FROM [dbo].[SalesData]
 WHERE OrderDate >= DATEADD(MONTH, -1, GETDAT)
 GROUP BY Product;
 
-## Data Analysis
+## The Sales Data Pivot Table Analysis
+![image](https://github.com/user-attachments/assets/62f70d99-5bf6-46c9-90cc-f7ea254a6f2f)
 
 
