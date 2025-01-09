@@ -116,19 +116,18 @@ FROM [dbo].[SalesData]
 WHERE OrderDate >= DATEADD(MONTH, -1, GETDAT)
 GROUP BY Product;
 
-## The Sales Data Pivot Table Analysis
-[image](https://github.com/user-attachments/assets/62f70d99-5bf6-46c9-90cc-f7ea254a6f2f)
+# Data Analysis
 
-## The total sales by month image from the pivoot table
-[image](https://github.com/user-attachments/assets/d8eea37c-26d5-41c3-9510-1fc156140913)
+The Sales Data Pivot Table Analysis. [image](https://github.com/user-attachments/assets/62f70d99-5bf6-46c9-90cc-f7ea254a6f2f)
+
+The total sales by month image from the pivoot table. [image](https://github.com/user-attachments/assets/d8eea37c-26d5-41c3-9510-1fc156140913)
 
 # Data Visualization
 
-## The customer data dashboard visualization
-[image](https://github.com/user-attachments/assets/9859bb0e-615b-4773-8e82-78c29fbdee14)
+The customer data dashboard visualization. [image](https://github.com/user-attachments/assets/9859bb0e-615b-4773-8e82-78c29fbdee14)
 
-## The total sales by product (Cluster Bar Chart)
-[Image] (https://github.com/user-attachments/assets/ac90f320-c978-4209-a9e4-241c9ea3648c)
+The total sales by product (Cluster Bar Chart). [Image](https://github.com/user-attachments/assets/ac90f320-c978-4209-a9e4-241c9ea3648c)
 
-## The count of product by the month (line chart) 
-[Image](https://github.com/user-attachments/assets/5f0c9547-a750-4da2-b150-99af73cecde4)
+The count of product by the month (line chart). [Image](https://github.com/user-attachments/assets/5f0c9547-a750-4da2-b150-99af73cecde4)
+
+
