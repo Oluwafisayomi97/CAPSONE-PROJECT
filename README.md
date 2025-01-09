@@ -67,7 +67,7 @@ Exploratory data analysis invoved explorying the data to answer some of the ques
 
 ## Data Analysis 
 ---
-This is where I include some basic lines of codes or queries uesd during the analysis;
+This is where I include some basic lines of codes or queries used during the analysis;
 
 ```SQL
 Select * from [dbo].[SalesData]
@@ -119,16 +119,16 @@ GROUP BY Product;
 ## The Sales Data Pivot Table Analysis
 [image](https://github.com/user-attachments/assets/62f70d99-5bf6-46c9-90cc-f7ea254a6f2f)
 
-The total sales by month image from the pivoot table
+## The total sales by month image from the pivoot table
 [image](https://github.com/user-attachments/assets/d8eea37c-26d5-41c3-9510-1fc156140913)
 
-## Data Visualization
+# Data Visualization
 
-The customer data dashboard visualization
+## The customer data dashboard visualization
 [image](https://github.com/user-attachments/assets/9859bb0e-615b-4773-8e82-78c29fbdee14)
 
 The the total sales by product (Cluster Bar Chart)
-<img width="520" alt="Total Sales By Product" src="https://github.com/user-attachments/assets/ac90f320-c978-4209-a9e4-241c9ea3648c">
+[Image] (https://github.com/user-attachments/assets/ac90f320-c978-4209-a9e4-241c9ea3648c)
 
 The count of product by the month (line chart) 
 <img width="566" alt="Count of Product by Month" src="https://github.com/user-attachments/assets/5f0c9547-a750-4da2-b150-99af73cecde4">
