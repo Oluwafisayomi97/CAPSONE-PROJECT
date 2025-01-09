@@ -130,6 +130,5 @@ The customer data dashboard visualization
 The the total sales by product (Cluster Bar Chart)
 <img width="520" alt="Total Sales By Product" src="https://github.com/user-attachments/assets/ac90f320-c978-4209-a9e4-241c9ea3648c">
 
-
 The count of product by the month (line chart) 
 <img width="566" alt="Count of Product by Month" src="https://github.com/user-attachments/assets/5f0c9547-a750-4da2-b150-99af73cecde4">
