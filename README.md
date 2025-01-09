@@ -117,7 +117,7 @@ WHERE OrderDate >= DATEADD(MONTH, -1, GETDAT)
 GROUP BY Product;
 
 ## The Sales Data Pivot Table Analysis
-![image](https://github.com/user-attachments/assets/62f70d99-5bf6-46c9-90cc-f7ea254a6f2f)
+[image](https://github.com/user-attachments/assets/62f70d99-5bf6-46c9-90cc-f7ea254a6f2f)
 
 The total sales by month image from the pivoot table
 ![image](https://github.com/user-attachments/assets/d8eea37c-26d5-41c3-9510-1fc156140913)
