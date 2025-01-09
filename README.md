@@ -120,12 +120,12 @@ GROUP BY Product;
 [image](https://github.com/user-attachments/assets/62f70d99-5bf6-46c9-90cc-f7ea254a6f2f)
 
 The total sales by month image from the pivoot table
-![image](https://github.com/user-attachments/assets/d8eea37c-26d5-41c3-9510-1fc156140913)
+[image](https://github.com/user-attachments/assets/d8eea37c-26d5-41c3-9510-1fc156140913)
 
 ## Data Visualization
 
 The customer data dashboard visualization
-![image](https://github.com/user-attachments/assets/9859bb0e-615b-4773-8e82-78c29fbdee14)
+[image](https://github.com/user-attachments/assets/9859bb0e-615b-4773-8e82-78c29fbdee14)
 
 The the total sales by product (Cluster Bar Chart)
 <img width="520" alt="Total Sales By Product" src="https://github.com/user-attachments/assets/ac90f320-c978-4209-a9e4-241c9ea3648c">
