@@ -124,13 +124,23 @@ The total sales by month image from the pivoot table. [image](https://github.com
 
 # Data Visualization
 
-The customer data dashboard visualization. [image](https://github.com/user-attachments/assets/9859bb0e-615b-4773-8e82-78c29fbdee14)
+The customer data dashboard visualization. [Image](https://github.com/user-attachments/assets/9859bb0e-615b-4773-8e82-78c29fbdee14)
 
 The total sales by product (Cluster Bar Chart). [Image](https://github.com/user-attachments/assets/ac90f320-c978-4209-a9e4-241c9ea3648c)
 
-The total sales by region (Pie Chart [Image] (https://github.com/user-attachments/assets/115fa3ec-9bf8-4daf-90c7-7828a644dcd1)
+The total sales by region Pie Chart. [Image](https://github.com/user-attachments/assets/115fa3ec-9bf8-4daf-90c7-7828a644dcd1)
 
 The count of product by the month (line chart). [Image](https://github.com/user-attachments/assets/5f0c9547-a750-4da2-b150-99af73cecde4)
+
+# The Insight Generation
+
+Sales trends: For the Sales by product category, the shoe generates the highest revenue and the Socks have the lowest sales.
+Shirts #180,785 (23.11%), Shoes #618,380 (29.19%), Hats #316,195 (15.05%), Gloves #296,900 (14.13%,),Jackets #208,230 (9.91%), Socks #180,785 (8.6%)
+
+The Sales by region category: The South region acheived the highest sales and the West region have lowest Sales.
+South #927,820 (44.16%), East #485,925 (23.13%), North #387,000 (18.42%), West #300,345 (14.29%)
+
+The Sales Performance Analysis for a Retail Store preformed across four regions South, North, East and West and six product categories which are Shirts,Hats, Shoes, Socks, Gloves, Jackets and Socks. Total sales: #2,101,090
 
 # Conclusion
 
