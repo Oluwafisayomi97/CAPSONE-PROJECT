@@ -128,6 +128,8 @@ The customer data dashboard visualization. [image](https://github.com/user-attac
 
 The total sales by product (Cluster Bar Chart). [Image](https://github.com/user-attachments/assets/ac90f320-c978-4209-a9e4-241c9ea3648c)
 
+The total sales by region (Pie Chart [Image] (https://github.com/user-attachments/assets/115fa3ec-9bf8-4daf-90c7-7828a644dcd1)
+
 The count of product by the month (line chart). [Image](https://github.com/user-attachments/assets/5f0c9547-a750-4da2-b150-99af73cecde4)
 
 # Conclusion
