@@ -132,8 +132,6 @@ The total sales by region Pie Chart. [Image](https://github.com/user-attachments
 
 The count of product by the month (line chart). [Image](https://github.com/user-attachments/assets/5f0c9547-a750-4da2-b150-99af73cecde4)
 
-
-[Click here](https://youtu.be/sQD7kaZ5h0s?si=Fexaje79_3UglEHi)
 # The Insight Generation
 
 Sales trends: For the Sales by product category, the shoe generates the highest revenue and the Socks have the lowest sales.
